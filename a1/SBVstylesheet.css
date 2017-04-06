@@ -1,0 +1,89 @@
+body{
+    background: url("sand.jpg") fixed;
+}
+#header {
+    height: 160px;
+    background: #EFCA07;
+    margin: 0 auto;
+    width: 1210px;
+	align-content: center
+}
+.bannerImg {
+	float: right;
+}
+#nav {
+	margin: 0 auto;
+	background: #EFCA07;
+	height: 40px;
+	width: 1210px;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    float: left;
+    margin-left: 3px;
+}
+#nav a:link, a:visited {
+	display: block;
+	height: 25px;
+	width: 168px;
+	color: #050505;
+	background-color: #EFCA07;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 900;
+	align-items: center
+}
+#nav a:hover {
+	background-color: #003CFF;
+	border: solid;
+  }
+#content {
+    margin: 0 auto;
+    background-color:rgba(255,255,224, 0.78);
+    height: 900px;
+    padding: 10px;
+    font-size: 20px;
+    width: 1190px;
+}
+.centerPic {
+    text-align: center;
+}
+.textTable {
+    width: 1100px;
+	height: 50px;
+	vertical-align: text-top;
+	text-align: center;
+}
+.button {
+	width: 100px;
+	height: 50px;
+	background-color: #003CFF;
+}
+
+#footer {
+	padding: 10px;
+	width: 1190px;
+	height: 100px;
+	background: #EFCA07;
+	margin: 0 auto;
+	text-align: end;
+}
+#Annoucements {
+	height: 350px;
+	width: 450px;
+	align-content:space-around
+}
+#imgwho {
+	height: 400px;
+	width: 250px;
+}
+#guidelines {
+	height: 300px;
+	width: 400px;
+}
